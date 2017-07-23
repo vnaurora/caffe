@@ -37,3 +37,6 @@ foreach(source_file ${examples_srcs})
                        COMMAND ln -sf "${__outname}" "${__outname}.bin")
   endif()
 endforeach()
+
+
+add_subdirectory(age_gender)
